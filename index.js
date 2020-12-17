@@ -15,11 +15,11 @@ function greet(time){
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(time){
-  const greeting = document.getElementById("greeting")
-  time = parseInt(time);
-  switch (time){
-    case (time < 12): greeting.innerText = "Good Morning";
-    case (time > 12 && time < 17): greeting.innerText = "Good Afternoon";
-    case (time >  17): greeting.innerText = "Good Evening";
-  }
+  // const greeting = document.getElementById("greeting")
+  // time = parseInt(time);
+  // switch (time){
+  //   case (time < 12): greeting.innerText = "Good Morning";
+  //   case (time > 12 && time < 17): greeting.innerText = "Good Afternoon";
+  //   case (time >  17): greeting.innerText = "Good Evening";
+  // }
 }
