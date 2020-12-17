@@ -15,8 +15,8 @@ function greet(time){
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(currTime){
-  const hour = parseInt(currTime, 10);
-  if ( hour < 12) return "Good Morning"
-  if ( hour > 17) return "Good Evening"
-  return "Good Afternoon"
+  const currHour = parseInt(currTime, 10);
+  if (currHour < 12) return "Good Morning"
+  if (currHour > 12 && currHour < 17) return "Good Afternoon"
+  if (currHour > 17) return "Good Evening"
 }
