@@ -17,8 +17,8 @@ function greet(time){
 function displayMessage(time){
   time = parseInt(time);
   switch (time){
-    case (val < 12): return "Good Morning";
-    case (val > 12 && val < 17): return "Good Afternoon";
-    case (val >  17): return "Good Evening";
+    case (time < 12): return "Good Morning";
+    case (time > 12 && time < 17): return "Good Afternoon";
+    case (time >  17): return "Good Evening";
   }
 }
