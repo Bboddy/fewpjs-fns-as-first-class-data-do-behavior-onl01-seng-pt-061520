@@ -14,9 +14,9 @@ function greet(time){
   
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(time){
+function displayMessage(currTime){
   const greeting = document.getElementById("greeting")
-  const hour = parseInt(time, 10);
+  const hour = parseInt(currTime, 10);
   switch (time){
     case (time < 12): greeting.innerText = "Good Morning";
     case (time > 12 && time < 17): greeting.innerText = "Good Afternoon";
