@@ -15,6 +15,7 @@ function greet(time){
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(time){
+  document.getElementById("greeting")
   time = parseInt(time);
   switch (time){
     case (time < 12): return "Good Morning";
