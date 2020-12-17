@@ -17,6 +17,6 @@ function greet(time){
 function displayMessage(time){
   time = parseInt(time);
   switch (time){
-    case 
+    case > 12 
   }
 }
