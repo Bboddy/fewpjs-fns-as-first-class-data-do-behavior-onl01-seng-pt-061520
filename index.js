@@ -16,4 +16,7 @@ function greet(time){
 /* Write your implementation of displayMessage() */
 function displayMessage(time){
   time = parseInt(time);
+  if (time < 12) {
+    
+  }
 }
