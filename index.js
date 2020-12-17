@@ -17,6 +17,6 @@ function greet(currTime){
   if (currHour > 17) return "Good Evening"
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(msg){
-  
+function displayMessage(message){
+  document.getElementById("greeting").innerText = message;
 }
