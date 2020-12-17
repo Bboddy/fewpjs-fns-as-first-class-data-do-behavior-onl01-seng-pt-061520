@@ -22,4 +22,5 @@ function displayMessage(time){
   //   case (time > 12 && time < 17): greeting.innerText = "Good Afternoon";
   //   case (time >  17): greeting.innerText = "Good Evening";
   // }
+  console.log(time);
 }
